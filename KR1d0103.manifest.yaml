@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR1d0103/v1
+canonical_location: https://kanripo.org/bkk/KR1d0103/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 禮義答問一卷
+  identifiers:
+    krp: KR1d0103
+  tags:
+    kr-categories: KR1d
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR1d0103.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR1d0103_001.yaml, hash: 'sha256:b5f1679495ccbd5a4f700e2c2906543b2f3281da0732d8a585d51fce88e733d0'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR1d0103_001.markers.yaml, hash: 'sha256:1d52c548c4074a66c48248cb7bde6436021cc64d03c702b628d9c7bcb30009b2'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR1d0103_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 3567
+  label: 禮義答問
+  type: section
+  level: 1
+hash: sha256:5b531461d6e3342980048c8defa631a156b96dda9897e9d34dfea21131fd89ef
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

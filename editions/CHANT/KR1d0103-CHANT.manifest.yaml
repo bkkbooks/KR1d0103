@@ -1,0 +1,34 @@
+canonical_identifier: bkk:krp/KR1d0103/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR1d0103/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 禮義答問一卷
+  identifiers:
+    krp: KR1d0103
+  tags:
+    kr-categories: KR1d
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR1d0103.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR1d0103_001-CHANT.yaml, hash: 'sha256:5905d7dfa10620296bccd6d37495e1eab2201e28165ff99462658434fdc84218'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR1d0103_001-CHANT.markers.yaml, hash: 'sha256:a7004af224e6de138bc759058343fd00bd6fe2583bea25e0b7fa799a86236f21'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR1d0103_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 3567
+  label: 禮義答問
+  type: section
+  level: 1
+hash: sha256:8a7d9f276497f605a02bcfbc49605759c649a3ab84442c7f85a2bdd795540707
